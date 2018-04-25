@@ -1,6 +1,6 @@
 module Kitchen
   module Driver
-    module Helpers
+    module ZoneHelpers
       # Return a newline-delimited string containing zonecfg subcommands
       # required to create a new zone.
       # Expects a hash for format arguments that will be used to replace
@@ -92,7 +92,7 @@ module Kitchen
       </property_group>
       <property_group type="application" name="user_account">
         <propval type="astring" name="shell" value="/usr/bin/bash"/>
-        <propval type="astring" name="login" value="%{kitchen_user_name}"/>
+        <propval type="astring" name="login" value="%{kitchen_username}"/>
         <propval type="astring" name="password" value="NP"/>
         <propval type="astring" name="type" value="normal"/>
         <propval type="astring" name="sudoers" value="ALL=(ALL) NOPASSWD: ALL"/>

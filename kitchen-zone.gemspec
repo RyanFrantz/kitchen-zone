@@ -21,8 +21,8 @@ require 'kitchen/driver/zone_version'
 Gem::Specification.new do |spec|
   spec.name = 'kitchen-zone'
   spec.version = Kitchen::Driver::ZONE_VERSION
-  spec.authors = ['Noah Kantrowitz']
-  spec.email = %w{noah@coderanger.net}
+  spec.authors = ['Ryan Frantz']
+  spec.email = %w{ryanleefrantz@gmail.com}
   spec.description = 'A Test-Kitchen driver for using Solaris zones.'
   spec.summary = spec.description + "\n\nOriginally forked from https://github.com/poise/kitchen-zone"
   spec.homepage = 'https://github.com/RyanFrantz/kitchen-zone'
